@@ -1,5 +1,5 @@
 # Jamagax's Rhino and Grasshopper Scripts
-Welcome to Jamagax's repository of scripts and definitions for Rhino and Grasshopper. This repository contains a collection of codes that can help to improve the 3D modeling workflow in Rhino by simplifying common tasks or repetitive processes for a pipeline.
+Welcome to Jamagax's repository of scripts and definitions for Rhino and Grasshopper. This repository contains a collection of codes that can help to improve the 3D modeling workflow in Rhino by simplifying common tasks or repetitive processes for a working pipeline.
 
 Please note that some of the files in this repository are exercises, others are modifications from other codes, and some of them are experiments of AI programming code. These codes are shared here for educational and demonstration purposes.
 
