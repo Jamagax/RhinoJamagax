@@ -1,0 +1,20 @@
+# Send objects to a non visible layer called trash
+# Add a "KK" alias to use quick
+
+import rhinoscriptsyntax as rs
+
+
+# prompt the user to select objects
+objects = rs.GetObjects("Please select objects to move to trash layer", preselect=True)
+if objects:
+    # create the "Trash" layer if it doesn't exist
+    if not rs.IsLayer("Trash"):
+        rs.AddLayer("Trash", (165,42,42))
+    # assign the selected objects to the "Trash" layer
+    rs.ObjectLayer(objects, "Trash")
+    # turn off the "Trash" layer
+    rs.LayerVisible("Trash", False)
+    # deselect all objects 
+    rs.UnselectAllObjects()
+else:
+    print("No objects selected.")
